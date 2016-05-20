@@ -1,0 +1,48 @@
+.front-page .logo {
+  display:block;
+  margin:-107px 0 0 -101px;
+  position:absolute;
+  top:50%;
+  left:280px;
+  z-index:10;
+}
+.front-page .lien{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('main/images/background/bg1.jpg') no-repeat center center fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.front-page .lien .lien-triangle{
+    width: 100%;
+    height: 50%;
+}
+.lien-triangle a {
+	  display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.imagefond {
+	width:100%;
+	height: 100%;
+  outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 2em;
+	line-height: 1;
+	color: #9e9ba4;
+	display: inline-block;
+  background-color: #3c948b;
+}
+
+
+.front-page .lien .lien-triangle .imagefond2:hover, .front-page .lien .lien-triangle .imagefond:hover {
+  background-color: #6aaca5;
+  transition: all .25s linear;
+}
+.link-text {text-align: center; color: #CCC; height: 100%;}
+.link-text:hover {color: white;}

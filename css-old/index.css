@@ -1,12 +1,12 @@
 h1, h2 {font-family: 'Montserrat', sans-serif;line-height: 1.85em; letter-spacing: 0.41em;}
 
 .front-page .logo {
-  display:block;
-  margin:-107px 0 0 -101px;
-  position:absolute;
-  top:50%;
-  left:280px;
-  z-index:10;
+  display: block;
+  margin: -107px 0 0 -101px;
+  position: absolute;
+  top: 61%;
+  left: 482px;
+  z-index: 10;
 }
 .front-page .lien{
 	position: fixed;

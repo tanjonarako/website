@@ -55,4 +55,6 @@ hr {border-top: 2px solid #eee;}
   .front-page .lien .lien-triangle{
     height: 40%;
   }
+  .link-work {padding-top: 0;}
+  .link-fun {padding-top: 0;}
 }

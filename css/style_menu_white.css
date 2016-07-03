@@ -30,6 +30,7 @@ h1
     font-weight:300;
     font-size:35px;
     text-transform:uppercase;
+    line-height: 1.85em;
     }
 h2
 {
@@ -48,9 +49,6 @@ h3
 h2, h3 {
     line-height: 30px;
 }
-h1 {
-    line-height: 0px;
-}
 p
 {
     font-family:'Lato', Sans-Serif;
@@ -59,7 +57,101 @@ p
     color:#666666;
 
     }
+hr {border-top: 2px solid #eee;}
+.front-page .logo {
+ display:block;
+ z-index: 10;
+ margin: 0 auto;
+}
+
+.front-page .lien{
+	position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url('https://tanjonarako.github.io/website/img/rochester_ny.jpg') no-repeat center center fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+.front-page .lien .lien-triangle{
+  width: 100%;
+  height: 50%;
+}
+.lien-triangle a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.image_fond {
+  width:100%;
+	height: 100%;
+  outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 2em;
+	line-height: 1;
+	display: inline-block;
+  opacity: 0.4;
+  color: #FFF;
+}
+
+.imagefond_green {
+  background-color: #3fb0ac;
+}
+
+.imagefond_green:hover {
+  background-color: #173e43;
+  transition: all .25s linear;
+  opacity: 0.8;
+}
+
+.imagefond_red {
+  background-color: #FF2626;
+}
+
+.imagefond_red:hover {
+  background-color: #A11515;
+  transition: all .25s linear;
+  opacity: 0.8;
+}
+
+.imagefond_blue {
+  background-color: #185BF6;
+}
+
+.imagefond_blue:hover {
+  background-color: #103894;
+  transition: all .25s linear;
+  opacity: 0.8;
+}
+
+.imagefond_pink {
+  background-color: #dbc3d0;
+}
+
+.imagefond_pink:hover {
+  background-color: #5e0231;
+  transition: all .25s linear;
+  opacity: 0.8;
+}
+
+.bloc {height: 30px;}
+.bloc-red {background-color: #FF2626;}
+.bloc-blue {background-color: #185BF6;}
+.bloc-green {background-color: #3fb0ac;}
+.bloc-pink {background-color: #dbc3d0;}
+.link-text {text-align: center; color: white; height: 100%; letter-spacing: 5px;}
+.link-text:hover {color: white;}
+.hr {padding-top: 6px;}
+.link-work {padding-top: 60px;}
+.link-fun {padding-top: 104px;}
+.bloc-red, .bloc-blue, .bloc-green, .bloc-pink {padding: 0;width: 30px;height: 30px;}
+li.list-group-item {background: none;border:none;}
+.list-inline {margin-top: 10px;}
 .h1 {padding: 0 20px;}
+.white {color: #FFF}
  .box
  {
      padding:20px 0 20px 0;
@@ -80,7 +172,7 @@ p
      }
  .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
  .row{margin-left:0px;}
- hr
+ .hr-2
  {
      width:80%;
      margin:15px 0 10px 0;
@@ -919,4 +1011,14 @@ and (min-width: 1000px)
 and (max-width: 1030px){
 /* YOUR STYLE GOES HERE */
 .arrows{display:none;}
+}
+@media (max-width: 1170px){
+  .container {min-height:}
+}
+@media (max-width: 767px){
+  .front-page .lien .lien-triangle{
+    height: 40%;
+  }
+  .link-work {padding-top: 0;}
+  .link-fun {padding-top: 0;}
 }

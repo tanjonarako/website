@@ -346,7 +346,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <link href="https://tanjonarako.github.io/website/css/style_menu_white.css" rel="stylesheet" type="text/css" />
   <link href="https://tanjonarako.github.io/website/css/component.css" rel="stylesheet" type="text/css" />
 </head>
-<body onload="initialize()" class="green">
+<body class="green">
   <section class="color-btn">
     <div class="row">
       <div class="col-md-offset-8 col-md-4 bloc">
@@ -396,19 +396,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <div class="second-page">
     <div class="container">
         <nav id="navigation" class="animated fadeInUpBig">
-          <ul id="nav">
+          <ul id="nav" class="menu-nav">
             <li class="current"><a href="#" title="home" class="home"><i class="fa fa-home"></i></a></li>
-            <li><a href="#section-2" title="skills"><i class="fa fa-bar-chart-o"></i></a></li>
-            <li><a href="#section-3" title="experiences"><i class="fa fa-eye"></i></a></li>
-            <li><a href="#section-4" title="portfolio"><i class="fa fa-flask"></i></a></li>
+            <li><a href="#" data-to="skills-top" title="profile"><i class="fa fa-user"></i></a></li>
+            <li><a href="#" data-to="about-bottom" title="skills"><i class="fa fa-bar-chart-o"></i></a></li>
+            <li><a href="#" data-to="exp-bottom" title="experiences"><i class="fa fa-eye"></i></a></li>
+            <li><a href="#" data-to="folio-top" title="portfolio"><i class="fa fa-flask"></i></a></li>
           </ul>
         </nav>
         <div class="row">
           <section id="section-1" class="col-md-6 pnl-border">
             <article id="about" class="span6 box_photo btn_lateral skills-top">
-               <div class="arrows">
-                  <div class="bottom" data-to="about-bottom"></div>
-               </div>
                <div class="span3_about photo_position">
                 <img src="https://tanjonarako.github.io/website/img/ta.jpg" alt="" class="photoProfil"/>
                </div>
@@ -444,10 +442,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <!--  SKILLS  -->
         <section id="section-2" class="pnl-border">
           <article id="skills" class="box btn_lateral about-bottom exp-top">
-            <div class="arrows">
-              <div data-to="skills-top" class="top"></div>
-              <div data-to="exp-bottom" class="bottom"></div>
-            </div>
             <h1 class="h1">Compétences</h1>
             <div class="row">
               <div class="col-md-6">
@@ -456,25 +450,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <div class="field roll-with-description">
                       <div class="roll-field">
                         <div class="label label-default">HTML5 / CSS3 / BOOTSTRAP</div>
-                        <div class="progressbar"><span title="100" class="progress-count" style="width: 100%;"></span></div>
+                        <div class="progressbar"><span title="100" class="progress-count green" style="width: 100%;"></span></div>
                       </div>
                     </div>
                     <div class="field roll-with-description">
                       <div class="roll-field">
                         <div class="label label-default" >WEBPACK / BROWSERIFY</div>
-                        <div class="progressbar"><span title="100" class="progress-count" style="width: 100%;"></span></div>
+                        <div class="progressbar"><span title="100" class="progress-count green" style="width: 100%;"></span></div>
                       </div>
                     </div>
                     <div class="field roll-with-description">
                       <div class="roll-field">
                         <div class="label label-default">LIQUID</div>
-                        <div class="progressbar"><span title="100" class="progress-count" style="width: 100%;"></span></div>
+                        <div class="progressbar"><span title="100" class="progress-count green" style="width: 100%;"></span></div>
                       </div>
                     </div>
                     <div class="field roll-with-description">
                       <div class="roll-field">
                         <div class="label label-default">WORDPRESS</div>
-                        <div class="progressbar"><span title="80" class="progress-count" style="width: 80%;"></span></div>
+                        <div class="progressbar"><span title="80" class="progress-count green" style="width: 80%;"></span></div>
                       </div>
                     </div>
                   </div>
@@ -487,19 +481,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <div class="field roll-with-description">
                       <div class="roll-field">
                         <div class="label label-default">JAVASCRIPT / JQUERY / AJAX</div>
-                        <div class="progressbar"><span title="100" class="progress-count" style="width: 100%;"></span></div>
+                        <div class="progressbar"><span title="100" class="progress-count green" style="width: 100%;"></span></div>
                       </div>
                     </div>
                     <div class="field roll-with-description">
                       <div class="roll-field">
                         <div class="label label-default">REACT.JS / REDUX</div>
-                        <div class="progressbar"><span title="50" class="progress-count" style="width: 50%;"></span></div>
+                        <div class="progressbar"><span title="50" class="progress-count green" style="width: 50%;"></span></div>
                       </div>
                     </div>
                     <div class="field roll-with-description">
                       <div class="roll-field">
                         <div class="label label-default">PHP/SQL</div>
-                        <div class="progressbar"><span title="70" class="progress-count" style="width: 70%;"></span></div>
+                        <div class="progressbar"><span title="70" class="progress-count green" style="width: 70%;"></span></div>
                       </div>
                     </div>
                   </div>
@@ -537,10 +531,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <!--  EXPERIENCE  -->
         <section id="section-3" class="span11 pnl-border">
           <article id="experience" class="box btn_lateral exp-bottom contact-top">
-            <div class="arrows">
-              <div data-to="exp-top" class="top"></div>
-              <div data-to="folio-top" class="bottom"></div>
-            </div>
             <h1 class="h1">Experience</h1>
             <div class="row">
               <div class="col-md-12">
@@ -573,9 +563,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <!--  PORTFOLIO  -->
         <section id="section-4" class="span11 pnl-border">
           <article id="portfolio" class="span11 box btn_lateral folio-top">
-            <div class="arrows">
-              <div data-to="exp-bottom" class="top"></div>
-            </div>
             <div class="row">
               <div class="col-md-12">
                 <h1 class="h1">Portfolio</h1>
@@ -658,9 +645,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://tanjonarako.github.io/website/js/main.js"></script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> modify css
 =======
 <script type="text/javascript" src="https://tanjonarako.github.io/website/js/initialize.js"></script>
 >>>>>>> add new images + modify css and js
+=======
+>>>>>>> update website
 </body>
 </html>

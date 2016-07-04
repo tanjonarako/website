@@ -180,6 +180,10 @@ li.list-group-item {background: none;border:none;}
 .list-inline {margin-top: 10px;}
 .h1 {padding: 0 20px;}
 .white {color: #FFF}
+span.progress-count.green{background-color: #3fb0ac;}
+span.progress-count.red{background-color: #FF2626;}
+span.progress-count.blue{background-color: #185BF6;}
+span.progress-count.pink{background-color: #dbc3d0;}
  .box
  {
      padding:20px 0 20px 0;
@@ -498,7 +502,6 @@ span.progress-count {
     height: 20px;
 
 }
-span.progress-count{background-color: #3fb0ac;}
 /********EXPERIENCE**************/
 
 #experience

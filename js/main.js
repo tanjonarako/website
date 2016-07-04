@@ -7,7 +7,7 @@ function handleColor(bloc) {
              .removeClass("blue")
              .removeClass("pink");
     $(".image_fond").addClass("imagefond_red");
-    $("body").adClass("red");
+    $("body").addClass("red");
   } else if (bloc.hasClass("bloc-blue")) {
     $(".image_fond").removeClass("imagefond_green")
                     .removeClass("imagefond_red")
@@ -15,7 +15,7 @@ function handleColor(bloc) {
     $("body").removeClass("green")
              .removeClass("red")
              .removeClass("pink");
-    $("body").adClass("blue");
+    $("body").addClass("blue");
     $(".image_fond").addClass("imagefond_blue");
   } else if (bloc.hasClass("bloc-green")) {
     $(".image_fond").removeClass("imagefond_blue")
@@ -24,7 +24,7 @@ function handleColor(bloc) {
     $("body").removeClass("blue")
              .removeClass("red")
              .removeClass("pink");
-    $("body").adClass("green");
+    $("body").addClass("green");
     $(".image_fond").addClass("imagefond_green");
   } else if (bloc.hasClass("bloc-pink")) {
     $(".image_fond").removeClass("imagefond_blue")
@@ -33,7 +33,7 @@ function handleColor(bloc) {
     $("body").removeClass("blue")
              .removeClass("red")
              .removeClass("green");
-    $("body").adClass("pink");
+    $("body").addClass("pink");
     $(".image_fond").addClass("imagefond_pink");
   }
 }

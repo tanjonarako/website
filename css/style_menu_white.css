@@ -14,10 +14,36 @@
 /* 07 - DEVICE*/
 
 
-body {
+body.green {
     /*background:#EDEDED;*/
-    background: url('https://tanjonarako.github.io/website/img/background/rochester_ny.jpg') no-repeat center center fixed;
+    background: url('https://tanjonarako.github.io/website/img/background/rochester_ny_green.jpg') no-repeat center center fixed;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+body.red {
+    /*background:#EDEDED;*/
+    background: url('https://tanjonarako.github.io/website/img/background/rochester_ny_red.jpg') no-repeat center center fixed;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.blue {
+    /*background:#EDEDED;*/
+    background: url('https://tanjonarako.github.io/website/img/background/rochester_ny_blue.jpg') no-repeat center center fixed;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.pink {
+    /*background:#EDEDED;*/
+    background: url('https://tanjonarako.github.io/website/img/background/rochester_ny_pink.jpg') no-repeat center center fixed;
      -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -58,6 +84,8 @@ p
 
     }
 hr {border-top: 2px solid #eee;}
+.first-page { z-index: 2;}
+.color-btn { z-index: 99999; position: relative;}
 .front-page .logo {
  display:block;
  z-index: 10;

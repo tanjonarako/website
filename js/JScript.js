@@ -26,7 +26,7 @@ $(document).ready(function () {
             $(window).scrollTop($('.' + hash).offset().top - 40);
         };
     };
-    $('.arrows .top, .arrows .bottom, .menu-nav a').click(function (event) {
+    $('.arrows .top, .arrows .bottom, .menu-nav .menu-left').click(function (event) {
         var target = $(this).data('to'),
         target_offset = $('.' + target).offset().top;
         event.preventDefault();

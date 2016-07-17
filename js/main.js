@@ -41,13 +41,21 @@ function handleColor(bloc) {
 
 $(function() {
   $(".second-page").hide();
-  $(".image_fond").on("click", function() {
+  $(".third-page").hide();
+  $(".img_fond_1").on("click", function() {
     $(".first-page").hide(300);
     $(".second-page").show(300);
+    $(".third-page").hide(300);
   });
   $(".home").on("click", function() {
     $(".first-page").show(300);
     $(".second-page").hide(300);
+    $(".third-page").hide(300);
+  });
+  $(".img_fond_2").on("click", function() {
+    $(".first-page").hide(300);
+    $(".second-page").hide(300);
+    $(".third-page").show(300);
   });
   $(".list-group-item").on("click", function() {
     handleColor($(this));

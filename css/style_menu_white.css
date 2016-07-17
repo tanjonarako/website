@@ -178,7 +178,7 @@ hr {border-top: 2px solid #eee;}
 .bloc-red, .bloc-blue, .bloc-green, .bloc-pink {padding: 0;width: 30px;height: 30px;}
 li.list-group-item {background: none;border:none;}
 .list-inline {margin-top: 10px;}
-.h1 {padding: 0 20px;}
+.h1, .h3 {padding: 0 20px;}
 .white {color: #FFF}
 span.progress-count.green{background-color: #3fb0ac;}
 span.progress-count.red{background-color: #FF2626;}

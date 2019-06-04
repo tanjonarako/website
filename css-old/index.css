@@ -49,6 +49,8 @@ hr {border-top: 2px solid #eee;}
 .link-text {text-align: center; color: white; height: 100%;}
 .link-text:hover {color: white;}
 .hr {padding-top: 6px;}
+.link-work {padding-top: 60px;}
+.link-fun {padding-top: 104px;}
 @media (max-width: 767px){
   .front-page .lien .lien-triangle{
     height: 40%;

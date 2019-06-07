@@ -6,7 +6,7 @@
   "author": "Michael Rasoahaingo <michael.rasoahaingo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "publish": "yarn gh-pages"
+    "publishsite": "gh-pages"
   },
   "dependencies": {
     "gh-pages": "^2.0.1"

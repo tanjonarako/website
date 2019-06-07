@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tanjonarako/website.git",
+  "author": "Michael Rasoahaingo <michael.rasoahaingo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "publish": "yarn gh-pages"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

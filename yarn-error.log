@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/11.9.0/bin/node /usr/local/bin/yarn publish
+  /usr/local/Cellar/node/11.9.0/bin/node /usr/local/bin/yarn publishsite
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -22,7 +22,7 @@ npm manifest:
     "author": "Michael Rasoahaingo <michael.rasoahaingo@gmail.com>",
     "license": "MIT",
     "scripts": {
-      "publishsite": "yarn gh-pages"
+      "publishsite": "gh-pages ."
     },
     "dependencies": {
       "gh-pages": "^2.0.1"
@@ -276,14 +276,16 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
 Trace: 
-  Error: https://registry.yarnpkg.com/website: You must be logged in to publish packages.
-      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:65019:18)
-      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:132430:22)
-      at Request.emit (events.js:197:13)
-      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:133413:10)
-      at Request.emit (events.js:197:13)
-      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:133333:12)
-      at Object.onceWrapper (events.js:285:13)
-      at IncomingMessage.emit (events.js:202:15)
-      at endReadableNT (_stream_readable.js:1129:12)
-      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+  Error: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c gh-pages .
+  Directory: /Users/michaelrasoahaingo/Documents/website
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/lib/node_modules/yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:197:13)
+      at maybeClose (internal/child_process.js:978:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:265:5)

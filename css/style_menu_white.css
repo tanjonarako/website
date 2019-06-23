@@ -1,0 +1,1055 @@
+/**Style Web Site**/
+
+
+/* ===================================*/
+/* TABLE OF CONTENTS: */
+/* ===================================*/
+/* 01 - GENERAL */
+/* 02 - ABOUT */
+/* 03 - SKILLS */
+/* 04 - EXPERIENCE*/
+/* 05 - PORTFOLIO*/
+/* 06 - CONTACT*/
+     /* 06a - GOOGLE MAPS*/
+/* 07 - DEVICE*/
+
+
+body.green {
+    /*background:#EDEDED;*/
+    background: url('https://tanjonarako.github.io/website/img/background/rochester_ny_green.png') no-repeat center center fixed;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.red {
+    /*background:#EDEDED;*/
+    background: url('https://tanjonarako.github.io/website/img/background/rochester_ny_red.jpg') no-repeat center center fixed;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.blue {
+    /*background:#EDEDED;*/
+    background: url('https://tanjonarako.github.io/website/img/background/rochester_ny_blue.jpg') no-repeat center center fixed;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.pink {
+    /*background:#EDEDED;*/
+    background: url('https://tanjonarako.github.io/website/img/background/rochester_ny_pink.jpg') no-repeat center center fixed;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1
+{
+    font-family:'Dosis', Sans-Serif;
+    font-weight:300;
+    font-size:35px;
+    text-transform:uppercase;
+    line-height: 1.85em;
+    }
+h2
+{
+    font-family:'Dosis', Sans-Serif;
+    font-weight:500;
+    font-size:35px;
+    }
+h3
+{
+    font-family:'Dosis', Sans-Serif;
+    font-weight:200;
+    font-size:26px;
+    text-transform:uppercase;
+    }
+
+h2, h3 {
+    line-height: 30px;
+}
+p
+{
+    font-family:'Lato', Sans-Serif;
+    font-weight:400;
+    font-size:14;
+    color:#666666;
+
+    }
+hr {border-top: 2px solid #eee;}
+.first-page { z-index: 2;}
+.color-btn { z-index: 99999; position: relative;}
+.front-page .logo {
+ display:block;
+ z-index: 10;
+ margin: 0 auto;
+}
+
+.front-page .lien{
+	position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url('https://tanjonarako.github.io/website/img/rochester_ny.jpg') no-repeat center center fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+.front-page .lien .lien-triangle{
+  width: 100%;
+  height: 50%;
+}
+.lien-triangle a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.image_fond {
+  width:100%;
+	height: 100%;
+  outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 2em;
+	line-height: 1;
+	display: inline-block;
+  opacity: 0.4;
+  color: #FFF;
+}
+
+.imagefond_green {
+  background-color: #3fb0ac;
+}
+
+.imagefond_green:hover {
+  background-color: #173e43;
+  transition: all .25s linear;
+  opacity: 0.8;
+}
+
+.imagefond_red {
+  background-color: #FF2626;
+}
+
+.imagefond_red:hover {
+  background-color: #A11515;
+  transition: all .25s linear;
+  opacity: 0.8;
+}
+
+.imagefond_blue {
+  background-color: #185BF6;
+}
+
+.imagefond_blue:hover {
+  background-color: #103894;
+  transition: all .25s linear;
+  opacity: 0.8;
+}
+
+.imagefond_pink {
+  background-color: #dbc3d0;
+}
+
+.imagefond_pink:hover {
+  background-color: #5e0231;
+  transition: all .25s linear;
+  opacity: 0.8;
+}
+
+.bloc {height: 30px;}
+.bloc-red {background-color: #FF2626;}
+.bloc-blue {background-color: #185BF6;}
+.bloc-green {background-color: #3fb0ac;}
+.bloc-pink {background-color: #dbc3d0;}
+.link-text {text-align: center; color: white; height: 100%; letter-spacing: 5px;}
+.link-text:hover {color: white;}
+.hr {padding-top: 6px;}
+.link-work {padding-top: 60px;}
+.link-fun {padding-top: 104px;}
+.bloc-red, .bloc-blue, .bloc-green, .bloc-pink {padding: 0;width: 30px;height: 30px;}
+li.list-group-item {background: none;border:none;}
+.list-inline {margin-top: 10px;}
+.h1, .h3 {padding: 0 20px;}
+.white {color: #FFF}
+span.progress-count.green{background-color: #3fb0ac;}
+span.progress-count.red{background-color: #FF2626;}
+span.progress-count.blue{background-color: #185BF6;}
+span.progress-count.pink{background-color: #dbc3d0;}
+ .box
+ {
+     padding:20px 0 20px 0;
+     background:#fff;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 1px 1px 1px #ccc;
+
+     }
+  .box_photo
+ {
+     padding:0px 0 20px 0;
+     background:#fff;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 1px 1px 1px #ccc;
+    text-align: center;
+     }
+ .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+ .row{margin-left:0px;}
+ .hr-2
+ {
+     width:80%;
+     margin:15px 0 10px 0;
+     }
+ .pnl-border
+ {
+     -moz-box-sizing: content-box;
+    background: none repeat scroll 0 0 rgba(158, 158, 158, 0.3);
+    padding: 13px;
+    margin-top:30px;
+     }
+ .view_disp{display:none;}
+
+ /********MENU**************/
+
+#navigation {
+    -moz-box-sizing: border-box;
+    height: 275px;
+    left: 0;
+    padding: 10px 10px;
+    position: fixed;
+    text-align: left;
+    top: 3.5%;
+
+    z-index: 9999;
+
+}
+#navigation ul li a {
+    color: #CCCCCC;
+    line-height: 1.6em !important;
+    margin: 0 !important;
+    text-decoration:none;
+}
+
+#navigation ul{
+    list-style:none;
+    margin:0;
+}
+#navigation ul li
+{
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 0 3px #666666;
+    margin-top:5px;
+    width: 41px;
+    border-radius: 0%;
+    transition-property: background, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear, ease-in;
+    }
+
+#navigation ul li span{}
+
+#navigation ul li:hover {
+   border-radius: 50%;
+}
+ul.color-list, ul#bg-list{
+    margin:0;
+    padding: 0;
+}
+#nav li a i{
+    color: #000;
+    display: block;
+    font-size: 20px;
+    outline: 0 none;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+/********ABOUT**************/
+#about
+{
+    position:relative;
+    margin-left:0px;
+    }
+.about_txt
+{
+    margin-top:0;
+    font-style:italic;
+    }
+#about img
+{
+    border: 10px solid #FFFFFF;
+    height: auto;
+    position: relative;
+     width:96.5%;
+    z-index: 1;
+    }
+ .span3_about
+ {
+     margin-right:20px;
+     }
+ .photo_position{margin-top:0px;margin-left:0px;}
+
+ .photo_name{margin-top:0px}
+ .photo_name h3{ text-transform:none;margin-top:15px;}
+ .btn_lateral .arrows {
+    top: 0;
+}
+.btn_lateral:hover .arrows .top, .btn_lateral:hover .arrows .bottom {
+    left: 0;
+}
+.arrows {
+    left: -60px;
+    overflow: hidden;
+    position: absolute;
+    top: 3px;
+    width: 60px;
+}
+.arrows .top, .arrows .bottom {
+    cursor: pointer;
+    height: 60px;
+    left: 60px;
+    position: relative;
+    -webkit-transition: left 0.3s ease 0s, background-color 0.2s ease 0s;
+	-moz-transition: left 0.3s ease 0s, background-color 0.2s ease 0s;
+	-o-transition: left 0.3s ease 0s, background-color 0.2s ease 0s;
+	-ms-transition: left 0.3s ease 0s, background-color 0.2s ease 0s;
+    transition: left 0.3s ease 0s, background-color 0.2s ease 0s;
+    width: 60px;
+}
+.arrows .top {
+    background:#3fb0ac url(https://tanjonarako.github.io/website/img/top_arrow.png) no-repeat scroll 50% center;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.arrows .top:hover {
+    background-color: #173e43;
+}
+.arrows .bottom {
+    background:#3fb0ac url(https://tanjonarako.github.io/website/img/bottom_arrow.png) no-repeat scroll 50% center;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.arrows .bottom:hover {
+    background-color: #173e43;
+}
+/********PERSONAL INFO**************/
+
+#personalinfo{margin-left:0px;z-index:100;}
+.span5_info{padding-left:17px;}
+p.info
+{
+    font-family:'Dosis', Sans-Serif;
+    font-weight:400;
+    font-size:18px;
+    float:left;
+    margin-right:20px;
+    line-height: 1.1;
+    }
+p.fa-terminal
+{
+    font-weight:200;
+    margin-right:20px;
+    }
+p.hobby
+{
+    color: #4d4d4f;
+    font-style: italic;
+    float:left;
+    margin-right:20px;
+    }
+ .education_title
+ {
+     margin-left:0px;
+     line-height: 10px;
+     }
+ .education_desc
+ {
+    color: #4d4d4f;
+    font-style: italic;
+     }
+
+#social{margin-top:9px;margin-left:0px;display:inline-block;}
+#social .i_iconsoc{display:inline-block;}
+
+.i_iconsoc i
+{
+    font-size:22px;
+    margin-bottom:2px;
+    color:#fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(111,111,111,0.1);
+    z-index:100;
+    position:relative;
+
+    }
+
+ .span1{margin-left:-5px;}
+.fa-twitter,.fa-google-plus, .fa-linkedin{padding:11px;}
+.fa-facebook
+{
+    padding:11px 17px 11px 17px;
+    background:#4C66A4;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+    }
+ .fa-twitter
+ {
+     background:#2FC2EF;
+     -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+     }
+ .fa-google-plus
+ {
+     background:#CE482B;
+     -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+     }
+ .fa-linkedin
+ {
+     background:#0073B2;
+     -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+     }
+ .fa-facebook:hover{background:#6984c5;}
+ .fa-twitter:hover{background:#7dd4ef;}
+ .fa-google-plus:hover{background:#ea7b63;}
+ .fa-linkedin:hover{background:#3aa3dd;}
+ /********SKILLS**************/
+ #skills
+{
+    margin-left:0px;
+    position:relative;
+    }
+#skills .skills_bottom{margin-bottom:5px;}
+/**Progress Bar**/
+div.block-content {
+    clear: both;
+    margin-top:30px;
+}
+div.roll-with-description {
+    clear: both;
+    cursor: pointer;
+}
+div.roll-with-description div.roll-button {
+    height: 40px;
+}
+div.roll-with-description div.roll-button {
+    float: left;
+    width: 30px;
+}
+.label {
+    border-radius: 1px 1px 1px 1px;
+    text-transform:uppercase;
+    font-family:'Dosis', Sans-Serif;
+    font-weight:500;
+    font-size:16px;
+    padding: 5px;
+    margin-top:10px;
+}
+
+.description{font-style:italic;color:#7b7b7a;}
+div.left-sidebar div.roll-with-description div.roll-field {
+    width: 200px;
+}
+div.roll-with-description div.roll-field {
+    float: left;
+}
+div.roll-field {
+    padding-bottom: 20px;
+    width:90%;
+}
+div.progressbar {
+    background: none repeat scroll 0 0 #EAEBEB;
+    border-radius: 1px 1px 1px 1px;
+    height: 20px;
+
+}
+span.progress-count {
+    border-radius: 1px 1px 1px 1px;
+    display: block;
+    height: 20px;
+
+}
+/********EXPERIENCE**************/
+
+#experience
+{
+    position:relative;
+    margin-left:0px;
+    }
+ #experience p{line-height: 1.8em;}
+.exp_company{margin-top:30px;}
+.exp_company img{float:left; margin-right:10px;}
+.date
+{
+    font-style:italic;
+    color:#7b7b7a;
+    }
+.exp_info{
+    font-style:italic;
+    color:#E74F3F;
+    float:left;
+    margin-right:15px;
+    }
+.exp_info i{
+    margin-right:5px;
+    }
+i.fa-calendar
+{
+    color:#7b7b7a;
+    margin-right:10px;
+    }
+p.exp_desc
+{
+    margin-right:50px;
+    }
+
+  /********PORTFOLIO**************/
+#setHeight_portfolio{height:180px;display:none;}
+
+#portfolio{margin-left:0px;position:relative;}
+
+#filters {margin-left: 30px;margin-top:30px;margin-bottom:20px;}
+
+#options{margin-left:0px;}
+
+#filters li {display:inline-block;background:#999999;}
+
+#filters li a {
+	display:block;
+	text-transform:uppercase;
+	font-family:'Dosis', Sans-Serif;
+	font-weight:400;
+	font-size:16px;
+	padding:5px;
+	color:#fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-webkit-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+}
+#filters li a:hover,
+#filters li a.selected {
+	text-decoration:none;
+	background:#E74F3F;
+
+}
+.item_description p {
+
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.box_portfolio {
+  margin: 0 12px 12px 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 1.4em;
+  float: left;
+  left: 0;
+  position: relative;
+  top: 0;
+}
+.box_portfolio p
+{
+    font-family:'Lato',sans-serif;
+    font-weight:400;
+    }
+.box_portfolio ul li
+{
+    font-family:'Lato',sans-serif;
+    font-weight:400;
+    }
+.box_portfolio img,
+#tumblelog img {
+  display: block;
+  width: 100%;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+.shadow1 {
+    background: url("https://tanjonarako.github.io/website/img/shadow1.png") no-repeat scroll center center transparent;
+    height: 25px;
+
+}
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+          transition: none;
+}
+/**** Transitions ****/
+
+.transitions-enabled.masonry,
+.transitions-enabled.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.transitions-enabled.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.transitions-enabled.masonry  .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+
+/* disable transitions on container */
+.transitions-enabled.infinite-scroll.masonry {
+  -webkit-transition-property: none;
+     -moz-transition-property: none;
+      -ms-transition-property: none;
+       -o-transition-property: none;
+          transition-property: none;
+}
+
+.portfolio-item:hover .portfolio-item-hover {
+    opacity: 0.9;
+}
+.portfolio-item-hover {
+    background: none repeat scroll 0 0 #E66F66;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: opacity 0.18s ease-in-out 0s;
+    width: 100%;
+    z-index:100000;
+}
+.portfolio-item-hover-info {
+
+    position: absolute;
+    width: 100%;
+}
+.portfolio-item-hover hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #FEFEFE -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-right: 0 none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    width: 35%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.portfolio-item-hover a {
+    border-bottom: 0 none !important;
+    display: block;
+    font-weight: normal !important;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.portfolio-item-hover h3 {
+    color: #FEFEFE;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin: 30px 0;
+}
+
+  /********CONTACT**************/
+
+form {
+    margin: 0;
+}
+#contact{margin-left:0px;position:relative;}
+.contact_txt{line-height: 1.8em;}
+
+#contact_Form{margin-top:20px;}
+#Info_contact{margin-top:20px;}
+
+form#contact_form .name {
+	padding:10px 0px 0 0px;
+}
+form#contact_form .email {
+	padding-top:10px;
+}
+form#contact_form p {
+	margin-bottom:10px;
+	padding-top:5px;
+	font-style:italic;
+}
+form#contact_form .message {
+	padding-top:10px;
+}
+
+form#contact_form input[type="text"] {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	height: 30px;
+	padding: 0 10px;
+	width: 50%;
+	margin-bottom:20px;
+	color:#333;
+}
+form#contact_form input#email {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	height: 30px;
+	padding: 0 10px;
+	width: 50%;
+	margin-bottom:20px;
+	color:#333;
+}
+form#contact_form .message textarea#message {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	width: 100%;
+	margin-bottom:20px;
+	color:#333;
+}
+form#contact_form label {
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight:400;
+	color: #333;
+	text-transform: uppercase;
+	font-family:'Dosis', Sakkal Majalla;
+}
+form#contact_form label span {
+	color:#333;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+form#contact_form input[type="text"]:focus, form#contact_form input[type="text"]:hover, form#contact_form textarea:focus, form#contact_form textarea:hover, form#contact_form input[type="text"]:focus, form#contact_form input[type="text"]:hover, form#contact_form textarea:focus, form#contact_form textarea:hover {
+	background-color:#fff;
+}
+.btn_download
+{
+    border: 1px solid #E74F3F;
+	background-color: #E74F3F;
+	padding:10px;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#fff;
+	margin-bottom:10px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+    }
+.btn_download:hover
+{
+    color:#fff;
+	background-color: #f57366;
+    }
+form#contact_form input[type="submit"] {
+	border: 1px solid #E74F3F;
+	background-color: #E74F3F;
+	padding:10px;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#fff;
+	margin-bottom:10px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	cursor:pointer;
+}
+form#contact_form input[type="submit"]:hover {
+	color:#fff;
+	background-color: #f57366;
+}
+/***GOOGLE MAPS****/
+#map_container {
+	width: 93.1%;
+	position: relative;
+	margin-top:30px;
+	border-color: rgba(111, 111, 111, 0.1);
+    border-style: solid;
+    border-width: 7px;
+
+}
+#map_canvas {
+    height: 445px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+
+}
+
+.desc-site {font-size: 10px;}
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen
+and (min-width : 240px) and (max-width : 568px) {
+/* STYLES GO HERE */
+.arrows{display:none;}
+
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 569px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+.arrows{display:none;}
+#about .about_txt, #about .photo_name{margin-left:20px;}
+#about img{width:95%;}
+.photo_name img{max-width:80%;}
+.top_profile{margin-left:0px;}
+#skills .span11 h1{margin-left:20px;}
+#skills .span11 h3{margin-left:20px;}
+#skills .block{margin-left:20px;}
+#skills .spx_move{margin-left:20px;padding-right: 30px;}
+#experience .span11{margin-left:20px;}
+#portfolio .span11 h1{margin-left:20px;}
+.portfolio-item-hover{width:73%;}
+#filters{margin-left: 20px;}
+#contact .span11{margin-left:20px;padding-right: 20px;}
+#contact .span5{margin-left:20px;padding-right: 20px;}
+#contact .message{padding-right: 20px;}
+.photo_name h3{font-size:20px;}
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-width : 240px) and (max-width : 569px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+#about img{width:92%;}
+.arrows{display:none;}
+}
+
+
+
+/* Galaxy Nexus (portrait and landscape) ----------- */
+@media only screen and (min-width:360px) and (max-width: 520px) {
+/* YOUR STYLE GOES HERE */
+.arrows{display:none;}
+.arrows{display:none;}
+#about .about_txt, #about .photo_name{margin-left:20px;}
+.photo_name img{max-width:80%;}
+.top_profile{margin-left:0px;}
+#about img{width:94%;}
+#skills .span11 h1{margin-left:20px;}
+#skills .span11 h3{margin-left:20px;}
+#skills .block{margin-left:20px;}
+#skills .spx_move{margin-left:20px;padding-right: 30px;}
+#experience .span11{margin-left:20px;}
+#portfolio .span11 h1{margin-left:20px;}
+#filters{margin-left: 20px;}
+#contact .span11{margin-left:20px;padding-right: 20px;}
+#contact .span5{margin-left:20px;padding-right: 20px;}
+#contact .message{padding-right: 20px;}
+.photo_name h3{font-size:20px;}
+
+}
+
+/* Galaxy Nexus (landscape) ----------- */
+@media only screen and (min-width : 361px) and (orientation: landscape){
+
+}
+
+/* Galaxy Nexus (portrait) ----------- */
+@media only screen and (max-width : 360px) and (orientation: portrait) {
+/* YOUR STYLE GOES HERE */
+#about .about_txt, #about .photo_name{margin-left:20px;}
+.photo_position{margin-left:0px;}
+ #about img{width:94%;}
+ .arrows{display:none;}
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* STYLES GO HERE */
+
+#about img{width:92%;}
+.arrows{display:none;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 320px) and (max-width : 480px) and (orientation: landscape){
+/* STYLES GO HERE */
+.portfolio-item-hover{width:89%;}
+.arrows{display:none;}
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) and (max-width : 480px) and (orientation : portrait){
+/* STYLES GO HERE */
+.arrows{display:none;}
+#about img{width:92%;}
+#about .about_txt, #about .photo_name{margin-left:20px;}
+.photo_name img{max-width:80%;}
+.top_profile{margin-left:0px;}
+#skills .span11 h1{margin-left:20px;}
+#skills .span11 h3{margin-left:20px;}
+#skills .block{margin-left:20px;}
+#skills .spx_move{margin-left:20px;padding-right: 30px;}
+#experience .span11{margin-left:20px;}
+#portfolio .span11 h1{margin-left:20px;}
+.portfolio-item-hover{width:100%;}
+#filters{margin-left: 20px;}
+#contact .span11{margin-left:20px;padding-right: 20px;}
+#contact .span5{margin-left:20px;padding-right: 20px;}
+#contact .message{padding-right: 20px;}
+.photo_name h3{font-size:20px;}
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* STYLES GO HERE */
+.photo_name h3{font-size:22px;}
+#about img{width:94%;}
+.og-grid{margin: 40px 10px 5px 20px;}
+.arrows{display:none;}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+#setHeight_portfolio{height:100px;display:none;}
+.arrows{display:none;}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+.photo_name h3{font-size:22px;}
+#setHeight_portfolio{height:350px;display:none;}
+.arrows{display:none;}
+
+}
+/* Kindle Portrait 600 X 1024 ----------- */
+@media only screen
+and (min-width: 595px)
+and (max-width: 610px){
+/* YOUR STYLE GOES HERE */
+.arrows{display:none;}
+#about .about_txt, #about .photo_name{margin-left:20px;}
+.photo_position{margin-left:0px;}
+.photo_name img{max-width:90%;}
+.top_profile{margin-left:0px;}
+#skills .span11 h1{margin-left:20px;}
+#skills .span11 h3{margin-left:20px;}
+#skills .block{margin-left:20px;}
+#skills .spx_move{margin-left:20px;padding-right: 20px;}
+#experience .span11{margin-left:20px;}
+#portfolio .span11 h1{margin-left:20px;}
+.portfolio-item-hover{width:68.7%;}
+#filters{margin-left: 20px;}
+#contact .span11{margin-left:20px;padding-right: 20px;}
+#contact .span5{margin-left:20px;padding-right: 20px;}
+#contact .message{padding-right: 20px;}
+
+}
+
+/* Kindle Landscape 1024 X 600 ----------- */
+@media only screen
+and (min-width: 1000px)
+and (max-width: 1030px){
+/* YOUR STYLE GOES HERE */
+.arrows{display:none;}
+}
+@media (max-width: 1170px){
+  .container {min-height:}
+}
+@media (max-width: 767px){
+  .front-page .lien .lien-triangle{
+    height: 40%;
+  }
+  .link-work {padding-top: 0;}
+  .link-fun {padding-top: 0;}
+}
